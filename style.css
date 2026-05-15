@@ -47,6 +47,17 @@ a {
   padding: 18px 0;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 50px;
+  width: auto;
+  display: block;
+}
+
 .logo {
   font-size: 1.1rem;
   font-weight: 700;
@@ -315,5 +326,9 @@ textarea {
 
   .hero h1 {
     font-size: 2rem;
+  }
+
+  .logo-img {
+    height: 40px;
   }
 }
