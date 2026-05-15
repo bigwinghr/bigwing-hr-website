@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" width="1000" height="800">
+  <defs>
+    <linearGradient id="leftWingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f2747;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2ba3a3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1f9d55;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="rightWingGradient" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c41e3a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f57c00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffc107;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Wing -->
+  <g id="leftWing">
+    <path d="M 300 280 Q 200 250, 150 350 Q 120 400, 140 450 Q 160 480, 200 470 Q 240 460, 280 400 Q 320 340, 300 280" fill="url(#leftWingGradient)" opacity="0.9"/>
+    <path d="M 320 290 Q 240 270, 200 350 Q 180 390, 195 435 Q 210 460, 240 455 Q 270 450, 300 395 Q 330 335, 320 290" fill="url(#leftWingGradient)" opacity="0.85"/>
+    <path d="M 340 300 Q 280 290, 250 360 Q 235 400, 245 440 Q 260 465, 285 460 Q 305 455, 325 405 Q 345 340, 340 300" fill="url(#leftWingGradient)" opacity="0.8"/>
+    <path d="M 355 310 Q 310 305, 285 370 Q 275 410, 280 445 Q 290 465, 310 462 Q 330 458, 345 415 Q 360 350, 355 310" fill="url(#leftWingGradient)" opacity="0.75"/>
+    <path d="M 370 325 Q 335 320, 315 380 Q 310 415, 312 450 Q 320 468, 335 466 Q 350 463, 365 425 Q 375 365, 370 325" fill="url(#leftWingGradient)" opacity="0.7"/>
+  </g>
+
+  <!-- Right Wing -->
+  <g id="rightWing">
+    <path d="M 700 280 Q 800 250, 850 350 Q 880 400, 860 450 Q 840 480, 800 470 Q 760 460, 720 400 Q 680 340, 700 280" fill="url(#rightWingGradient)" opacity="0.9"/>
+    <path d="M 680 290 Q 760 270, 800 350 Q 820 390, 805 435 Q 790 460, 760 455 Q 730 450, 700 395 Q 670 335, 680 290" fill="url(#rightWingGradient)" opacity="0.85"/>
+    <path d="M 660 300 Q 720 290, 750 360 Q 765 400, 755 440 Q 740 465, 715 460 Q 695 455, 675 405 Q 655 340, 660 300" fill="url(#rightWingGradient)" opacity="0.8"/>
+    <path d="M 645 310 Q 690 305, 715 370 Q 725 410, 720 445 Q 710 465, 690 462 Q 670 458, 655 415 Q 640 350, 645 310" fill="url(#rightWingGradient)" opacity="0.75"/>
+    <path d="M 630 325 Q 665 320, 685 380 Q 690 415, 688 450 Q 680 468, 665 466 Q 650 463, 635 425 Q 625 365, 630 325" fill="url(#rightWingGradient)" opacity="0.7"/>
+  </g>
+
+  <!-- Center Figure -->
+  <g id="centerFigure">
+    <!-- Body -->
+    <path d="M 500 250 L 480 350 L 475 450 Q 475 480, 500 490 Q 525 480, 525 450 L 520 350 Z" fill="#0f2747"/>
+    <!-- Head -->
+    <circle cx="500" cy="380" r="25" fill="#0f2747"/>
+    <!-- Accent lines -->
+    <path d="M 470 300 Q 465 350, 470 400" stroke="#f57c00" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 530 300 Q 535 350, 530 400" stroke="#1f9d55" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Text: BIGWING -->
+  <text x="500" y="580" font-family="Arial, sans-serif" font-size="120" font-weight="bold" text-anchor="middle" letter-spacing="5">
+    <tspan fill="#0f2747">BIG</tspan><tspan fill="#f57c00">WING</tspan>
+  </text>
+
+  <!-- Text: HR SERVICES -->
+  <text x="500" y="680" font-family="Arial, sans-serif" font-size="50" font-weight="600" text-anchor="middle" fill="#6b7280" letter-spacing="8">HR SERVICES</text>
+</svg>
